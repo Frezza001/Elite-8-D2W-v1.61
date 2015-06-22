@@ -1,8 +1,8 @@
 //
 //  main.m
-//  Elite 8 D2W
+//  NCAA App
 //
-//  Created by Frezza, Stephen T on 2/11/14.
+//  Created by Hassan Al Rawi on 12/11/13.
 //  Copyright (c) 2014 Gannon University. All rights reserved.
 //
 

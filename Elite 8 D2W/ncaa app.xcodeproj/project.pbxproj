@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4925E3461882F1B4009E4425 /* Home Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4925E3451882F1B4009E4425 /* Home Small.png */; };
+		4925E34A1882F2C6009E4425 /* About us Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4925E3471882F2C6009E4425 /* About us Small.png */; };
+		4925E34B1882F2C6009E4425 /* settings icon Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4925E3481882F2C6009E4425 /* settings icon Small.png */; };
+		4925E34C1882F2C6009E4425 /* Sports Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4925E3491882F2C6009E4425 /* Sports Small.png */; };
+		4928B8941861DF8100506F89 /* NewsCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928B8931861DF8100506F89 /* NewsCustomCell.m */; };
+		4964823918620B8400B0326D /* Weather Icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4964823818620B8400B0326D /* Weather Icon2.png */; };
+		49A08A5E187E0DDA00CDC8F0 /* ErieWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A08A5D187E0DDA00CDC8F0 /* ErieWeatherViewController.m */; };
+		49AA0FB4187F0923003FD5F5 /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0FB3187F0923003FD5F5 /* MapsViewController.m */; };
+		49AA0FB7187F0936003FD5F5 /* ArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0FB6187F0936003FD5F5 /* ArenaViewController.m */; };
+		49AA0FBA187F094A003FD5F5 /* LocalContributorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0FB9187F094A003FD5F5 /* LocalContributorsViewController.m */; };
+		49AA0FBD187F0961003FD5F5 /* TicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0FBC187F0961003FD5F5 /* TicketsViewController.m */; };
+		49AA0FC4187F09CA003FD5F5 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0FC3187F09CA003FD5F5 /* ScheduleViewController.m */; };
+		49AA0FC7187F09D6003FD5F5 /* BracketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0FC6187F09D6003FD5F5 /* BracketViewController.m */; };
+		49AA0FCA187F09E4003FD5F5 /* RankingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0FC9187F09E4003FD5F5 /* RankingsViewController.m */; };
+		49AA0FCD187F09FD003FD5F5 /* CoachesPollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0FCC187F09FD003FD5F5 /* CoachesPollViewController.m */; };
+		49AA0FD0187F0A08003FD5F5 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0FCF187F0A08003FD5F5 /* TwitterViewController.m */; };
+		49B995A61860BC480024483B /* NewFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B995A51860BC480024483B /* NewFeedViewController.m */; };
+		49BA4839187F6C1E00D50B7A /* SettingsHubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BA4838187F6C1E00D50B7A /* SettingsHubViewController.m */; };
+		49BA483C187F6C3900D50B7A /* AboutHubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BA483B187F6C3900D50B7A /* AboutHubViewController.m */; };
+		49BB3028187C56FC009FBDA5 /* Elite8MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB3027187C56FC009FBDA5 /* Elite8MenuViewController.m */; };
+		49BB302B187C5C9F009FBDA5 /* ErieHubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB302A187C5C9F009FBDA5 /* ErieHubViewController.m */; };
+		49BBACDB1858E7D600D36939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BBACDA1858E7D600D36939 /* Foundation.framework */; };
+		49BBACDD1858E7D600D36939 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BBACDC1858E7D600D36939 /* CoreGraphics.framework */; };
+		49BBACDF1858E7D600D36939 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BBACDE1858E7D600D36939 /* UIKit.framework */; };
+		49BBACE51858E7D600D36939 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49BBACE31858E7D600D36939 /* InfoPlist.strings */; };
+		49BBACE71858E7D600D36939 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BBACE61858E7D600D36939 /* main.m */; };
+		49BBACEB1858E7D600D36939 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BBACEA1858E7D600D36939 /* AppDelegate.m */; };
+		49BBACEE1858E7D600D36939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BBACEC1858E7D600D36939 /* Main.storyboard */; };
+		49BBACF11858E7D600D36939 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BBACF01858E7D600D36939 /* MainViewController.m */; };
+		49BBACF31858E7D600D36939 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BBACF21858E7D600D36939 /* Images.xcassets */; };
+		49BBACFA1858E7D600D36939 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BBACF91858E7D600D36939 /* XCTest.framework */; };
+		49BBACFB1858E7D600D36939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BBACDA1858E7D600D36939 /* Foundation.framework */; };
+		49BBACFC1858E7D600D36939 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BBACDE1858E7D600D36939 /* UIKit.framework */; };
+		49BBAD041858E7D600D36939 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49BBAD021858E7D600D36939 /* InfoPlist.strings */; };
+		49BBAD061858E7D600D36939 /* NCAA_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BBAD051858E7D600D36939 /* NCAA_AppTests.m */; };
+		49BBAD111858E88200D36939 /* SlidingMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BBAD101858E88200D36939 /* SlidingMainMenuViewController.m */; };
+		49BBAD131858EF8E00D36939 /* Mockups-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49BBAD121858EF8E00D36939 /* Mockups-01.jpg */; };
+		49BBAD181858F3A400D36939 /* Mockups_Artboard 5_Artboard 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BBAD161858F3A400D36939 /* Mockups_Artboard 5_Artboard 5.png */; };
+		49BBAD191858F3A400D36939 /* Mockups_Artboard 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BBAD171858F3A400D36939 /* Mockups_Artboard 6.png */; };
+		49BC783F1884351E000E67FC /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BC783E1884351E000E67FC /* WebViewViewController.m */; };
+		49BD171118803EF700B19916 /* settings icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BD171018803EF700B19916 /* settings icon.png */; };
+		49BD17151880402B00B19916 /* Sports.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BD17121880402B00B19916 /* Sports.png */; };
+		49BD17161880402B00B19916 /* About us.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BD17131880402B00B19916 /* About us.png */; };
+		49BD17171880402B00B19916 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BD17141880402B00B19916 /* Home.png */; };
+		49BD171D1880692500B19916 /* Logo small.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BD171C1880692500B19916 /* Logo small.png */; };
+		49CF83DF185FF58600CDB9C9 /* Weather Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CF83DE185FF58600CDB9C9 /* Weather Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49BBACFD1858E7D600D36939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49BBACCF1858E7D600D36939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49BBACD61858E7D600D36939;
+			remoteInfo = "NCAA App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4925E3451882F1B4009E4425 /* Home Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Small.png"; sourceTree = "<group>"; };
+		4925E3471882F2C6009E4425 /* About us Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "About us Small.png"; path = "../About us Small.png"; sourceTree = "<group>"; };
+		4925E3481882F2C6009E4425 /* settings icon Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings icon Small.png"; path = "../settings icon Small.png"; sourceTree = "<group>"; };
+		4925E3491882F2C6009E4425 /* Sports Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sports Small.png"; path = "../Sports Small.png"; sourceTree = "<group>"; };
+		4928B8921861DF8100506F89 /* NewsCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCustomCell.h; sourceTree = "<group>"; };
+		4928B8931861DF8100506F89 /* NewsCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCustomCell.m; sourceTree = "<group>"; };
+		4964823818620B8400B0326D /* Weather Icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Weather Icon2.png"; sourceTree = "<group>"; };
+		49A08A5C187E0DDA00CDC8F0 /* ErieWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErieWeatherViewController.h; sourceTree = "<group>"; };
+		49A08A5D187E0DDA00CDC8F0 /* ErieWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErieWeatherViewController.m; sourceTree = "<group>"; };
+		49AA0FB2187F0923003FD5F5 /* MapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
+		49AA0FB3187F0923003FD5F5 /* MapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
+		49AA0FB5187F0936003FD5F5 /* ArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArenaViewController.h; sourceTree = "<group>"; };
+		49AA0FB6187F0936003FD5F5 /* ArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArenaViewController.m; sourceTree = "<group>"; };
+		49AA0FB8187F094A003FD5F5 /* LocalContributorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalContributorsViewController.h; sourceTree = "<group>"; };
+		49AA0FB9187F094A003FD5F5 /* LocalContributorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalContributorsViewController.m; sourceTree = "<group>"; };
+		49AA0FBB187F0961003FD5F5 /* TicketsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketsViewController.h; sourceTree = "<group>"; };
+		49AA0FBC187F0961003FD5F5 /* TicketsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketsViewController.m; sourceTree = "<group>"; };
+		49AA0FC2187F09CA003FD5F5 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		49AA0FC3187F09CA003FD5F5 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		49AA0FC5187F09D6003FD5F5 /* BracketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BracketViewController.h; sourceTree = "<group>"; };
+		49AA0FC6187F09D6003FD5F5 /* BracketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BracketViewController.m; sourceTree = "<group>"; };
+		49AA0FC8187F09E4003FD5F5 /* RankingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingsViewController.h; sourceTree = "<group>"; };
+		49AA0FC9187F09E4003FD5F5 /* RankingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingsViewController.m; sourceTree = "<group>"; };
+		49AA0FCB187F09FD003FD5F5 /* CoachesPollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoachesPollViewController.h; sourceTree = "<group>"; };
+		49AA0FCC187F09FD003FD5F5 /* CoachesPollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoachesPollViewController.m; sourceTree = "<group>"; };
+		49AA0FCE187F0A08003FD5F5 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		49AA0FCF187F0A08003FD5F5 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		49B995A41860BC480024483B /* NewFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeedViewController.h; sourceTree = "<group>"; };
+		49B995A51860BC480024483B /* NewFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeedViewController.m; sourceTree = "<group>"; };
+		49BA4837187F6C1E00D50B7A /* SettingsHubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsHubViewController.h; sourceTree = "<group>"; };
+		49BA4838187F6C1E00D50B7A /* SettingsHubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsHubViewController.m; sourceTree = "<group>"; };
+		49BA483A187F6C3900D50B7A /* AboutHubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutHubViewController.h; path = ../AboutHubViewController.h; sourceTree = "<group>"; };
+		49BA483B187F6C3900D50B7A /* AboutHubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutHubViewController.m; path = ../AboutHubViewController.m; sourceTree = "<group>"; };
+		49BB3026187C56FC009FBDA5 /* Elite8MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Elite8MenuViewController.h; sourceTree = "<group>"; };
+		49BB3027187C56FC009FBDA5 /* Elite8MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Elite8MenuViewController.m; sourceTree = "<group>"; };
+		49BB3029187C5C9F009FBDA5 /* ErieHubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErieHubViewController.h; sourceTree = "<group>"; };
+		49BB302A187C5C9F009FBDA5 /* ErieHubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErieHubViewController.m; sourceTree = "<group>"; };
+		49BBACD71858E7D600D36939 /* NCAA App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NCAA App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BBACDA1858E7D600D36939 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49BBACDC1858E7D600D36939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49BBACDE1858E7D600D36939 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49BBACE21858E7D600D36939 /* NCAA App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NCAA App-Info.plist"; sourceTree = "<group>"; };
+		49BBACE41858E7D600D36939 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49BBACE61858E7D600D36939 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49BBACE81858E7D600D36939 /* NCAA App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NCAA App-Prefix.pch"; sourceTree = "<group>"; };
+		49BBACE91858E7D600D36939 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49BBACEA1858E7D600D36939 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49BBACED1858E7D600D36939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49BBACEF1858E7D600D36939 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		49BBACF01858E7D600D36939 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		49BBACF21858E7D600D36939 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49BBACF81858E7D600D36939 /* NCAA AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NCAA AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BBACF91858E7D600D36939 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49BBAD011858E7D600D36939 /* NCAA AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NCAA AppTests-Info.plist"; sourceTree = "<group>"; };
+		49BBAD031858E7D600D36939 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49BBAD051858E7D600D36939 /* NCAA_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCAA_AppTests.m; sourceTree = "<group>"; };
+		49BBAD0F1858E88200D36939 /* SlidingMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingMainMenuViewController.h; sourceTree = "<group>"; };
+		49BBAD101858E88200D36939 /* SlidingMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingMainMenuViewController.m; sourceTree = "<group>"; };
+		49BBAD121858EF8E00D36939 /* Mockups-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mockups-01.jpg"; sourceTree = "<group>"; };
+		49BBAD161858F3A400D36939 /* Mockups_Artboard 5_Artboard 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mockups_Artboard 5_Artboard 5.png"; sourceTree = "<group>"; };
+		49BBAD171858F3A400D36939 /* Mockups_Artboard 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mockups_Artboard 6.png"; sourceTree = "<group>"; };
+		49BC783D1884351E000E67FC /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewViewController.h; sourceTree = "<group>"; };
+		49BC783E1884351E000E67FC /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewViewController.m; sourceTree = "<group>"; };
+		49BD171018803EF700B19916 /* settings icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings icon.png"; sourceTree = "<group>"; };
+		49BD17121880402B00B19916 /* Sports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sports.png; sourceTree = "<group>"; };
+		49BD17131880402B00B19916 /* About us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About us.png"; sourceTree = "<group>"; };
+		49BD17141880402B00B19916 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		49BD171C1880692500B19916 /* Logo small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo small.png"; sourceTree = "<group>"; };
+		49CF83DE185FF58600CDB9C9 /* Weather Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Weather Icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49BBACD41858E7D600D36939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BBACDD1858E7D600D36939 /* CoreGraphics.framework in Frameworks */,
+				49BBACDF1858E7D600D36939 /* UIKit.framework in Frameworks */,
+				49BBACDB1858E7D600D36939 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BBACF51858E7D600D36939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BBACFA1858E7D600D36939 /* XCTest.framework in Frameworks */,
+				49BBACFC1858E7D600D36939 /* UIKit.framework in Frameworks */,
+				49BBACFB1858E7D600D36939 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49A08A5B187DFD9800CDC8F0 /* Elite 8 Menus */ = {
+			isa = PBXGroup;
+			children = (
+				49AA0FD1187F0A13003FD5F5 /* Twitter */,
+				49AA0FD2187F0A1C003FD5F5 /* Coaches Poll */,
+				49AA0FD3187F0A2A003FD5F5 /* Rankings */,
+				49AA0FD4187F0A32003FD5F5 /* Bracket */,
+				49AA0FD5187F0A3C003FD5F5 /* Schedule */,
+				49AA0FB0187F0876003FD5F5 /* News */,
+			);
+			name = "Elite 8 Menus";
+			sourceTree = "<group>";
+		};
+		49A08A5F187E0DE600CDC8F0 /* Erie Hub Menus */ = {
+			isa = PBXGroup;
+			children = (
+				49AA0FBE187F0965003FD5F5 /* Tickets */,
+				49AA0FBF187F096E003FD5F5 /* Arena */,
+				49AA0FC0187F0975003FD5F5 /* Local Contributors */,
+				49AA0FC1187F0989003FD5F5 /* Maps */,
+				49AA0FB1187F0883003FD5F5 /* Weather */,
+			);
+			name = "Erie Hub Menus";
+			sourceTree = "<group>";
+		};
+		49AA0FB0187F0876003FD5F5 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				4928B8921861DF8100506F89 /* NewsCustomCell.h */,
+				4928B8931861DF8100506F89 /* NewsCustomCell.m */,
+				49B995A41860BC480024483B /* NewFeedViewController.h */,
+				49B995A51860BC480024483B /* NewFeedViewController.m */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		49AA0FB1187F0883003FD5F5 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				49A08A5C187E0DDA00CDC8F0 /* ErieWeatherViewController.h */,
+				49A08A5D187E0DDA00CDC8F0 /* ErieWeatherViewController.m */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		49AA0FBE187F0965003FD5F5 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				49AA0FBB187F0961003FD5F5 /* TicketsViewController.h */,
+				49AA0FBC187F0961003FD5F5 /* TicketsViewController.m */,
+			);
+			name = Tickets;
+			sourceTree = "<group>";
+		};
+		49AA0FBF187F096E003FD5F5 /* Arena */ = {
+			isa = PBXGroup;
+			children = (
+				49AA0FB5187F0936003FD5F5 /* ArenaViewController.h */,
+				49AA0FB6187F0936003FD5F5 /* ArenaViewController.m */,
+			);
+			name = Arena;
+			sourceTree = "<group>";
+		};
+		49AA0FC0187F0975003FD5F5 /* Local Contributors */ = {
+			isa = PBXGroup;
+			children = (
+				49AA0FB8187F094A003FD5F5 /* LocalContributorsViewController.h */,
+				49AA0FB9187F094A003FD5F5 /* LocalContributorsViewController.m */,
+			);
+			name = "Local Contributors";
+			sourceTree = "<group>";
+		};
+		49AA0FC1187F0989003FD5F5 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				49AA0FB2187F0923003FD5F5 /* MapsViewController.h */,
+				49AA0FB3187F0923003FD5F5 /* MapsViewController.m */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		49AA0FD1187F0A13003FD5F5 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				49AA0FCE187F0A08003FD5F5 /* TwitterViewController.h */,
+				49AA0FCF187F0A08003FD5F5 /* TwitterViewController.m */,
+			);
+			name = Twitter;
+			sourceTree = "<group>";
+		};
+		49AA0FD2187F0A1C003FD5F5 /* Coaches Poll */ = {
+			isa = PBXGroup;
+			children = (
+				49AA0FCB187F09FD003FD5F5 /* CoachesPollViewController.h */,
+				49AA0FCC187F09FD003FD5F5 /* CoachesPollViewController.m */,
+			);
+			name = "Coaches Poll";
+			sourceTree = "<group>";
+		};
+		49AA0FD3187F0A2A003FD5F5 /* Rankings */ = {
+			isa = PBXGroup;
+			children = (
+				49AA0FC8187F09E4003FD5F5 /* RankingsViewController.h */,
+				49AA0FC9187F09E4003FD5F5 /* RankingsViewController.m */,
+			);
+			name = Rankings;
+			sourceTree = "<group>";
+		};
+		49AA0FD4187F0A32003FD5F5 /* Bracket */ = {
+			isa = PBXGroup;
+			children = (
+				49AA0FC5187F09D6003FD5F5 /* BracketViewController.h */,
+				49AA0FC6187F09D6003FD5F5 /* BracketViewController.m */,
+			);
+			name = Bracket;
+			sourceTree = "<group>";
+		};
+		49AA0FD5187F0A3C003FD5F5 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				49AA0FC2187F09CA003FD5F5 /* ScheduleViewController.h */,
+				49AA0FC3187F09CA003FD5F5 /* ScheduleViewController.m */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		49BBACCE1858E7D600D36939 = {
+			isa = PBXGroup;
+			children = (
+				49BBACE01858E7D600D36939 /* NCAA App */,
+				49BBACFF1858E7D600D36939 /* NCAA AppTests */,
+				49BBACD91858E7D600D36939 /* Frameworks */,
+				49BBACD81858E7D600D36939 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49BBACD81858E7D600D36939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49BBACD71858E7D600D36939 /* NCAA App.app */,
+				49BBACF81858E7D600D36939 /* NCAA AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49BBACD91858E7D600D36939 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49BBACDA1858E7D600D36939 /* Foundation.framework */,
+				49BBACDC1858E7D600D36939 /* CoreGraphics.framework */,
+				49BBACDE1858E7D600D36939 /* UIKit.framework */,
+				49BBACF91858E7D600D36939 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49BBACE01858E7D600D36939 /* NCAA App */ = {
+			isa = PBXGroup;
+			children = (
+				49BBACEC1858E7D600D36939 /* Main.storyboard */,
+				49BBACE91858E7D600D36939 /* AppDelegate.h */,
+				49BBACEA1858E7D600D36939 /* AppDelegate.m */,
+				49BBACEF1858E7D600D36939 /* MainViewController.h */,
+				49BBACF01858E7D600D36939 /* MainViewController.m */,
+				49BBAD0F1858E88200D36939 /* SlidingMainMenuViewController.h */,
+				49BBAD101858E88200D36939 /* SlidingMainMenuViewController.m */,
+				49CF83E3185FF73E00CDB9C9 /* Menus ViewControllers */,
+				49BBACF21858E7D600D36939 /* Images.xcassets */,
+				49BBACE11858E7D600D36939 /* Supporting Files */,
+			);
+			path = "NCAA App";
+			sourceTree = "<group>";
+		};
+		49BBACE11858E7D600D36939 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49CF83DD185FF40700CDB9C9 /* Images */,
+				49BBACE21858E7D600D36939 /* NCAA App-Info.plist */,
+				49BBACE31858E7D600D36939 /* InfoPlist.strings */,
+				49BBACE61858E7D600D36939 /* main.m */,
+				49BBACE81858E7D600D36939 /* NCAA App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49BBACFF1858E7D600D36939 /* NCAA AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				49BBAD051858E7D600D36939 /* NCAA_AppTests.m */,
+				49BBAD001858E7D600D36939 /* Supporting Files */,
+			);
+			path = "NCAA AppTests";
+			sourceTree = "<group>";
+		};
+		49BBAD001858E7D600D36939 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49BBAD011858E7D600D36939 /* NCAA AppTests-Info.plist */,
+				49BBAD021858E7D600D36939 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49CF83DD185FF40700CDB9C9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				49BD17121880402B00B19916 /* Sports.png */,
+				4925E3491882F2C6009E4425 /* Sports Small.png */,
+				49BD17131880402B00B19916 /* About us.png */,
+				4925E3471882F2C6009E4425 /* About us Small.png */,
+				49BD17141880402B00B19916 /* Home.png */,
+				4925E3451882F1B4009E4425 /* Home Small.png */,
+				49BD171018803EF700B19916 /* settings icon.png */,
+				4925E3481882F2C6009E4425 /* settings icon Small.png */,
+				49BD171C1880692500B19916 /* Logo small.png */,
+				4964823818620B8400B0326D /* Weather Icon2.png */,
+				49CF83DE185FF58600CDB9C9 /* Weather Icon.png */,
+				49BBAD121858EF8E00D36939 /* Mockups-01.jpg */,
+				49BBAD161858F3A400D36939 /* Mockups_Artboard 5_Artboard 5.png */,
+				49BBAD171858F3A400D36939 /* Mockups_Artboard 6.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		49CF83E3185FF73E00CDB9C9 /* Menus ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				49BB3029187C5C9F009FBDA5 /* ErieHubViewController.h */,
+				49BB302A187C5C9F009FBDA5 /* ErieHubViewController.m */,
+				49A08A5F187E0DE600CDC8F0 /* Erie Hub Menus */,
+				49BB3026187C56FC009FBDA5 /* Elite8MenuViewController.h */,
+				49BB3027187C56FC009FBDA5 /* Elite8MenuViewController.m */,
+				49A08A5B187DFD9800CDC8F0 /* Elite 8 Menus */,
+				49BA4837187F6C1E00D50B7A /* SettingsHubViewController.h */,
+				49BA4838187F6C1E00D50B7A /* SettingsHubViewController.m */,
+				49BA483A187F6C3900D50B7A /* AboutHubViewController.h */,
+				49BA483B187F6C3900D50B7A /* AboutHubViewController.m */,
+				49BC783D1884351E000E67FC /* WebViewViewController.h */,
+				49BC783E1884351E000E67FC /* WebViewViewController.m */,
+			);
+			name = "Menus ViewControllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49BBACD61858E7D600D36939 /* NCAA App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BBAD091858E7D600D36939 /* Build configuration list for PBXNativeTarget "NCAA App" */;
+			buildPhases = (
+				49BBACD31858E7D600D36939 /* Sources */,
+				49BBACD41858E7D600D36939 /* Frameworks */,
+				49BBACD51858E7D600D36939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NCAA App";
+			productName = "NCAA App";
+			productReference = 49BBACD71858E7D600D36939 /* NCAA App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49BBACF71858E7D600D36939 /* NCAA AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BBAD0C1858E7D600D36939 /* Build configuration list for PBXNativeTarget "NCAA AppTests" */;
+			buildPhases = (
+				49BBACF41858E7D600D36939 /* Sources */,
+				49BBACF51858E7D600D36939 /* Frameworks */,
+				49BBACF61858E7D600D36939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49BBACFE1858E7D600D36939 /* PBXTargetDependency */,
+			);
+			name = "NCAA AppTests";
+			productName = "NCAA AppTests";
+			productReference = 49BBACF81858E7D600D36939 /* NCAA AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49BBACCF1858E7D600D36939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hassan Al Rawi";
+				TargetAttributes = {
+					49BBACD61858E7D600D36939 = {
+						DevelopmentTeam = 93B8CCS74B;
+					};
+					49BBACF71858E7D600D36939 = {
+						TestTargetID = 49BBACD61858E7D600D36939;
+					};
+				};
+			};
+			buildConfigurationList = 49BBACD21858E7D600D36939 /* Build configuration list for PBXProject "NCAA App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49BBACCE1858E7D600D36939;
+			productRefGroup = 49BBACD81858E7D600D36939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49BBACD61858E7D600D36939 /* NCAA App */,
+				49BBACF71858E7D600D36939 /* NCAA AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49BBACD51858E7D600D36939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BD17171880402B00B19916 /* Home.png in Resources */,
+				4925E3461882F1B4009E4425 /* Home Small.png in Resources */,
+				49BBACF31858E7D600D36939 /* Images.xcassets in Resources */,
+				49BBAD191858F3A400D36939 /* Mockups_Artboard 6.png in Resources */,
+				49BD17151880402B00B19916 /* Sports.png in Resources */,
+				49BBAD181858F3A400D36939 /* Mockups_Artboard 5_Artboard 5.png in Resources */,
+				49BBAD131858EF8E00D36939 /* Mockups-01.jpg in Resources */,
+				4925E34C1882F2C6009E4425 /* Sports Small.png in Resources */,
+				49BD17161880402B00B19916 /* About us.png in Resources */,
+				49BD171118803EF700B19916 /* settings icon.png in Resources */,
+				49BBACE51858E7D600D36939 /* InfoPlist.strings in Resources */,
+				49BBACEE1858E7D600D36939 /* Main.storyboard in Resources */,
+				49CF83DF185FF58600CDB9C9 /* Weather Icon.png in Resources */,
+				49BD171D1880692500B19916 /* Logo small.png in Resources */,
+				4925E34B1882F2C6009E4425 /* settings icon Small.png in Resources */,
+				4925E34A1882F2C6009E4425 /* About us Small.png in Resources */,
+				4964823918620B8400B0326D /* Weather Icon2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BBACF61858E7D600D36939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BBAD041858E7D600D36939 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49BBACD31858E7D600D36939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BA4839187F6C1E00D50B7A /* SettingsHubViewController.m in Sources */,
+				49AA0FC7187F09D6003FD5F5 /* BracketViewController.m in Sources */,
+				49AA0FCD187F09FD003FD5F5 /* CoachesPollViewController.m in Sources */,
+				49BB3028187C56FC009FBDA5 /* Elite8MenuViewController.m in Sources */,
+				49BA483C187F6C3900D50B7A /* AboutHubViewController.m in Sources */,
+				49AA0FBD187F0961003FD5F5 /* TicketsViewController.m in Sources */,
+				49AA0FD0187F0A08003FD5F5 /* TwitterViewController.m in Sources */,
+				49B995A61860BC480024483B /* NewFeedViewController.m in Sources */,
+				49BBACF11858E7D600D36939 /* MainViewController.m in Sources */,
+				49AA0FB7187F0936003FD5F5 /* ArenaViewController.m in Sources */,
+				49AA0FC4187F09CA003FD5F5 /* ScheduleViewController.m in Sources */,
+				49AA0FB4187F0923003FD5F5 /* MapsViewController.m in Sources */,
+				49BBAD111858E88200D36939 /* SlidingMainMenuViewController.m in Sources */,
+				49A08A5E187E0DDA00CDC8F0 /* ErieWeatherViewController.m in Sources */,
+				4928B8941861DF8100506F89 /* NewsCustomCell.m in Sources */,
+				49BC783F1884351E000E67FC /* WebViewViewController.m in Sources */,
+				49AA0FBA187F094A003FD5F5 /* LocalContributorsViewController.m in Sources */,
+				49BB302B187C5C9F009FBDA5 /* ErieHubViewController.m in Sources */,
+				49BBACEB1858E7D600D36939 /* AppDelegate.m in Sources */,
+				49BBACE71858E7D600D36939 /* main.m in Sources */,
+				49AA0FCA187F09E4003FD5F5 /* RankingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BBACF41858E7D600D36939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BBAD061858E7D600D36939 /* NCAA_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49BBACFE1858E7D600D36939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49BBACD61858E7D600D36939 /* NCAA App */;
+			targetProxy = 49BBACFD1858E7D600D36939 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49BBACE31858E7D600D36939 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BBACE41858E7D600D36939 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49BBACEC1858E7D600D36939 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BBACED1858E7D600D36939 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49BBAD021858E7D600D36939 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BBAD031858E7D600D36939 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49BBAD071858E7D600D36939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49BBAD081858E7D600D36939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49BBAD0A1858E7D600D36939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NCAA App/NCAA App-Prefix.pch";
+				INFOPLIST_FILE = "NCAA App/NCAA App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49BBAD0B1858E7D600D36939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NCAA App/NCAA App-Prefix.pch";
+				INFOPLIST_FILE = "NCAA App/NCAA App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49BBAD0D1858E7D600D36939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NCAA App.app/NCAA App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NCAA App/NCAA App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NCAA AppTests/NCAA AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		49BBAD0E1858E7D600D36939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NCAA App.app/NCAA App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NCAA App/NCAA App-Prefix.pch";
+				INFOPLIST_FILE = "NCAA AppTests/NCAA AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49BBACD21858E7D600D36939 /* Build configuration list for PBXProject "NCAA App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BBAD071858E7D600D36939 /* Debug */,
+				49BBAD081858E7D600D36939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BBAD091858E7D600D36939 /* Build configuration list for PBXNativeTarget "NCAA App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BBAD0A1858E7D600D36939 /* Debug */,
+				49BBAD0B1858E7D600D36939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BBAD0C1858E7D600D36939 /* Build configuration list for PBXNativeTarget "NCAA AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BBAD0D1858E7D600D36939 /* Debug */,
+				49BBAD0E1858E7D600D36939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49BBACCF1858E7D600D36939 /* Project object */;
+}
